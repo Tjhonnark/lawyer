@@ -2,7 +2,7 @@ export const links = [
     {
         id:1,
         text:'Inicio',
-        url:'#myCarousel'
+        url:'#'
     },
     {
         id:2,

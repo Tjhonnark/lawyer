@@ -12,7 +12,7 @@ export default function Navbar() {
             <ul className="navbar-nav col-md-12 justify-content-end">
                 {links.map((link) => {
                     return (
-                        <li className="nav-item">
+                        <li className="nav-item btn btn-outline-light">
                             <a className="nav-link" href={link.url} key={link.id}>
                                 {link.text}
                             </a>

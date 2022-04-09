@@ -1,5 +1,5 @@
 export const Body = {
-  background: "black",
+  background: "#131313",
   padding: "70px",
 };
 export const Img = {

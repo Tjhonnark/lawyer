@@ -5,7 +5,7 @@ export default function Contact() {
         <div id="contact" className="row bg-primary text-light">
             <div className="col-md-12">
                 <div className="container">
-                <h2 className="d-flex justify-content-center py-4">Contactanos</h2>
+                <h2 className="d-flex justify-content-center py-4">Contáctanos</h2>
                     <div className="row">
                         <div className="col-md-6">
                                 <h5>Horarios</h5>
@@ -24,7 +24,9 @@ export default function Contact() {
                                     <i class="bi bi-envelope-fill"> ragr1969@hotmail.com</i>
                                 </p>
                                 <p>
+                                    <a className="text-decoration-none text-info" href="https://www.linkedin.com/in/rodrigo-alberto-garc%C3%ADa-rodr%C3%ADguez-43ba4918a">
                                     <i className="bi bi-linkedin">  LinkedIn</i>
+                                    </a>
                                 </p> 
                                 <h5>Dirección Postal</h5>
                                     <p>
