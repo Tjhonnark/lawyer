@@ -9,7 +9,7 @@ export default function About() {
                         <div className="col-md-5">
                             <h1>Perfil Profesional</h1>
                             <h5>Abogado y Consultor  que ofrece servicios legales a personas y empresas nacionales e internacionales.</h5>
-                            <a type="button" class="btn btn-primary mt-3" href="Rodrigo_alberto_garcía_rodríguez_sin_referencias.pdf">Más infomación</a>
+                            <a type="button" class="btn btn-light mt-3" href="Rodrigo_alberto_garcía_rodríguez_sin_referencias.pdf">Más infomación</a>
                         </div>
                         <div className="col-md-6 py-4">
                             <img className="col-md-12" src="facultadderecho.jpg" alt="" style={Img}/>
