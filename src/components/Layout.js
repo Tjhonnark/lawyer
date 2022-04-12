@@ -21,7 +21,7 @@ export default function Layout(props){
                 <meta name="twitter:creator" content=""/>
             </Head>
             <Navbar />
-            <main className=''>
+            <main className='row'>
                 {props.children}
             </main>
             <footer>

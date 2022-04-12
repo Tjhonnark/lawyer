@@ -2,7 +2,7 @@ import {Body, Img} from './styles/styleAbout';
 
 export default function About() {
     return (
-        <div id="about" className="row text-light" style={Body}>
+        <div id="about" className="text-light py-5" style={Body}>
             <div className="col-md-12">
                 <div className="container">
                     <div className="row d-flex justify-content-around align-items-center">

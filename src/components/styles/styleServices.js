@@ -16,7 +16,7 @@ export const Background = {
     backgroundPosition:" center",
     backgroundSize:"cover",
     backgroundImage:"url('services2.jpg')",
-    opacity:"0.6",
+    opacity:"0.5",
   };
   export const Container = {
     position:"absolute",
