@@ -3,18 +3,16 @@
 export default function Forms() {
     return (
         <form className="" name="contact" netlify>
-            <p>
-                <label><input type="text" name="name" placeholder="Nombre"/></label>
-            </p>
-            <p>
-                <label><input type="email" name="email" placeholder="Email"/></label>
-            </p>
-            <p>
-                <label htmlFor=""><textarea className="message" placeholder="Mensaje"/></label>
-            </p>
-            <p>
-                <button type="submit">Enviar</button>
-            </p>
+            <label>
+                <input type="text" name="name" placeholder="Nombre"/>
+            </label>
+            <label>
+                <input type="email" name="email" placeholder="Email"/>
+            </label>
+            <label htmlFor="">
+                <textarea name="message" placeholder="Mensaje"/>
+            </label>
+            <input type="submit" value="Enviar ">Enviar</input>
         </form>        
     )
 }
