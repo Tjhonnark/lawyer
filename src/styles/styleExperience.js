@@ -1,4 +1,5 @@
-export const Container = {
+export const Body = {
+    height: "42rem",
     padding: "60px 0"
 }
 export const Header = {
@@ -25,6 +26,7 @@ export const Swiperslide = {
 }
 
 export const Card = {
+    background: "linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)",
+    color: "white",
     width: "18rem",
-    background: ""
 }

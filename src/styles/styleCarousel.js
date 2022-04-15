@@ -7,7 +7,7 @@ export const Container = {
 };
 export const CarouselItem1 = {
     background:" black",
-    height:" 38rem",
+    height:" 40rem",
     color:" white",
     position:"relative",
     backgroundPosition:"center",
@@ -26,7 +26,7 @@ export const OverlayImage1 = {
 };
 export const CarouselItem2 = {
     background:" black",
-    height:" 38rem",
+    height:" 40rem",
     color:" white",
     position:" relative",
     backgroundPosition:"center",
@@ -45,7 +45,7 @@ export const OverlayImage2 = {
 };
 export const CarouselItem3 = {
     background:" black",
-    height:" 38rem",
+    height:" 40rem",
     color:" white",
     position:" relative",
     backgroundPosition:"center",

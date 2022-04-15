@@ -11,12 +11,12 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 import { cards } from './data/Cards';
-import { Container, Header, Title, Description, SwiperStyle, Swiperslide, Card } from '../styles/styleExperience';
+import { Body, Header, Title, Description, SwiperStyle, Swiperslide, Card } from '../styles/styleExperience';
 
 export default function App() {
 
     return (
-        <div id="experience" style={Container}>
+        <div id="experience" style={Body}>
             <div className="text-center" style={Header}>
                 <h2 style={Title}>
                 Experiencias

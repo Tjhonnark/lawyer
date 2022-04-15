@@ -1,12 +1,12 @@
-import {Body, Img} from '../styles/styleAbout';
+import {Body, Container, Img} from '../styles/styleAbout';
 
 export default function About() {
     return (
-        <div id="about" className="text-light py-5" style={Body}>
+        <div id="about" className="text-light bg-dark" style={Body}>
             <div className="col-md-12">
                 <div className="container">
-                    <div className="row d-flex justify-content-around align-items-center">
-                        <div className="col-md-5 py-5">
+                    <div className="row d-flex justify-content-around align-items-center" style={Container}>
+                        <div className="col-md-5 px-5">
                             <h2>Perfil Profesional</h2>
                             <h5>Abogado y Consultor  que ofrece servicios legales a personas y empresas nacionales e internacionales.</h5>
                             <a type="button" class="btn btn-light mt-3" href="Rodrigo_alberto_garcía_rodríguez_sin_referencias.pdf">Más infomación</a>

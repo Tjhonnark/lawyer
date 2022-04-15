@@ -1,5 +1,7 @@
 export const StyleNavbar = {
-    /* background: "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(142,150,199,0.23012955182072825) 50%, rgba(0,0,0,1) 100%)" */
+    /* background: "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(142,150,199,0.23012955182072825) 50%, rgba(0,0,0,1) 100%)", */
+    
+    
 }
 
 export const NavItem = {
@@ -9,8 +11,4 @@ export const NavItem = {
 }
 
 export const NavLink = {
-    /* background: "green",
-    '& a:hover': {
-        background: 'gray',
-    }, */
 }

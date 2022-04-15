@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import {useRouter, Router} from 'next/router';
-import 'bootswatch/dist/flatly/bootstrap.min.css';
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
