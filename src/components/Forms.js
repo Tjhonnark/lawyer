@@ -13,7 +13,7 @@ export default function Forms() {
                 <label><textarea name="message" placeholder="Mensaje"/></label>
             </p>
             <p>
-                <button type="submit">Enviar</button>
+                <input type="submit" value="Enviar"/>
             </p>
         </form>        
     )
