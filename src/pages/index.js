@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import Carousel1 from "../components/Carousel";
 import About from "../components/About";
 import Services from "../components/Services";
-import Test from "../components/Test";
+import Experience from "../components/Experience";
 import Contact from '../components/Contact';
 
 export default function Index() {
@@ -11,7 +11,7 @@ export default function Index() {
             <Carousel1 />
             <About />
             <Services />
-            <Test />
+            <Experience />
             <Contact />
         </Layout>
     )

@@ -1,16 +1,30 @@
-export const SwiperStyle = {
-    background: "green",
-    width: "100%",
-    padding: "10px 65px",
-    display: "flex",
-    justifyContent: "space-around"
+export const Container = {
+    padding: "60px 0"
+}
+export const Header = {
+    background: "",
+    padding: "30px 0px",
+    
 }
 
-export const SwiperSlide = {
+export const Title = {
+    
+}
+export const Description = {
+    
+}
+
+export const SwiperStyle = {
+    background: "",
+    width: "100%",
+    padding: "50px 65px",
+}
+
+export const Swiperslide = {
 
 }
 
 export const Card = {
     width: "18rem",
-    background: "red"
+    background: ""
 }

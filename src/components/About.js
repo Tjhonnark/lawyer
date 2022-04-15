@@ -7,7 +7,7 @@ export default function About() {
                 <div className="container">
                     <div className="row d-flex justify-content-around align-items-center">
                         <div className="col-md-5 py-5">
-                            <h1>Perfil Profesional</h1>
+                            <h2>Perfil Profesional</h2>
                             <h5>Abogado y Consultor  que ofrece servicios legales a personas y empresas nacionales e internacionales.</h5>
                             <a type="button" class="btn btn-light mt-3" href="Rodrigo_alberto_garcía_rodríguez_sin_referencias.pdf">Más infomación</a>
                         </div>

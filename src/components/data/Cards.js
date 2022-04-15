@@ -1,0 +1,33 @@
+export const cards = [
+    {
+        id:1,
+        text:'Inicio',
+        img:'demo.jpg'
+    },
+    {
+        id:2,
+        text:'Inicio',
+        img:'demo.jpg'
+    },
+    {
+        id:3,
+        text:'Inicio',
+        img:'demo.jpg'
+    },
+    {
+        id:4,
+        text:'Inicio',
+        img:'demo.jpg'
+    },
+    {
+        id:5,
+        text:'Inicio',
+        img:'demo.jpg'
+    },
+    {
+        id:6,
+        text:'Inicio',
+        img:'demo.jpg'
+    },
+    
+]
