@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Navbar from './Navbar';
-import Contact from './Contact';
 
 export default function Layout(props){
     return (
@@ -21,11 +20,11 @@ export default function Layout(props){
                 <meta name="twitter:creator" content=""/>
             </Head>
             <Navbar />
-            <main className='row'>
+            <main className=''>
                 {props.children}
             </main>
             <footer>
-                <Contact />
+                
             </footer>
         </>
     )

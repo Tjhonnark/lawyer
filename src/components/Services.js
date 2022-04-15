@@ -1,9 +1,9 @@
-import { Template, Background, Container} from './styles/styleServices'
+import { Template, Background, Container} from '../styles/styleServices'
 
 export default function Services() {
     return (
         <div id="services">
-            <div className='row d-flex align-items-center' style={Template}>
+            <div className='d-flex align-items-center' style={Template}>
             <div style={Background}></div>
                 <div className="p-5" style={Container}>
                     <div className="col-md-12 d-flex justify-content-center my-3">

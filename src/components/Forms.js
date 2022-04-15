@@ -2,15 +2,15 @@
 
 export default function Forms() {
     return (
-        <form className="contact" method="POST" data-netlify="true">
+        <form className="" name="contact" netlify>
             <p>
-                <input type="text" className="name" placeholder="Nombre" />
+                <label><input type="text" name="name" placeholder="Nombre"/></label>
             </p>
             <p>
-                <input type="email" className="email" placeholder="Email"/>
+                <label><input type="email" name="email" placeholder="Email"/></label>
             </p>
             <p>
-                <textarea className="message" placeholder="Mensaje"></textarea>
+                <label htmlFor=""><textarea className="message" placeholder="Mensaje"/></label>
             </p>
             <p>
                 <button type="submit">Enviar</button>

@@ -2,7 +2,7 @@ import Forms from "./Forms"
 
 export default function Contact() {
     return (
-        <div id="contact" className="row bg-primary text-light">
+        <div id="contact" className="bg-primary text-light">
             <div className="col-md-12">
                 <div className="container">
                 <h2 className="d-flex justify-content-center py-4">Contáctanos</h2>
