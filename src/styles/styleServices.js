@@ -15,7 +15,7 @@ export const Background = {
     top:" 0",
     backgroundPosition:" center",
     backgroundSize:"cover",
-    backgroundImage:"url('services2.jpg')",
+    backgroundImage:"url('/home/services2.jpg')",
     opacity:"0.5",
   };
   export const Container = {
