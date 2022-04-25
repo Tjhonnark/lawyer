@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import Link from 'next/link';
 import { links } from './data/NavbarLinks';
 import {StyleNavbar, NavItem, NavLink} from '../styles/styleNavbar';
 
@@ -27,9 +28,9 @@ export default function Navbar() {
                 {links.map((link) => {
                     return (
                         <li className="nav-item" style={NavItem}>
-                            <a className="nav-link" style={NavLink} href={link.url} key={link.id}>
-                                {link.text}
-                            </a>
+                            <Link className="nav-link" href={link.url} key={link.id}>
+                                <a className='btn btn-outline-light'>{link.text}</a>
+                            </Link>
                         </li>
                     )
                 })}

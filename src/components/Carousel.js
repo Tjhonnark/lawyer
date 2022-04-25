@@ -18,9 +18,9 @@ export default function Carousel() {
           {sliders.map((slider) => {
             return (
               <div className={slider.item} key={slider.id} style={CarouselItem}>
-                <img
+                <div
                 className="" 
-                src={slider.img} 
+                /* src={slider.img} */ 
                 style={OverlayImage} />
                 <div className='container' style={Container}>
                   <div className={slider.container} >
