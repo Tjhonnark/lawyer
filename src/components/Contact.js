@@ -24,8 +24,8 @@ export default function Contact() {
                                     <i class="bi bi-envelope-fill"> ragr1969@hotmail.com</i>
                                 </p>
                                 <p>
-                                    <a className="text-decoration-none text-info" href="https://www.linkedin.com/in/rodrigo-alberto-garc%C3%ADa-rodr%C3%ADguez-43ba4918a">
-                                    <i className="bi bi-linkedin">  LinkedIn</i>
+                                    <a className="text-decoration-none text-info" href="https://www.linkedin.com/in/rodrigo-alberto-garc%C3%ADa-rodr%C3%ADguez-43ba4918a" target="blank">
+                                    <i className="bi bi-linkedin">  Rodrigo Alberto García Rodríguez</i>
                                     </a>
                                 </p> 
                                 <h5>Dirección Postal</h5>
